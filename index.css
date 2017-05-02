@@ -1,0 +1,61 @@
+body {
+  display: flex;
+}
+
+#art {
+	position:absolute;
+  display:table;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+	width:600px;
+  height:300px;
+	margin: auto;
+}
+
+.row {
+  display: table-row;
+  border: 1px solid black;
+}
+
+.grid {
+  display:table-cell;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.bar {
+  margin: auto;
+}
+
+#circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 100px;
+}
+
+
+.red {
+  background-color: red;
+  border: 1.5px solid black;
+}
+
+.blue {
+  background-color: blue;
+  border: 1.5px solid black;
+}
+
+.green {
+  background-color: green;
+  border: 1.5px solid black;
+}
+
+.white {
+  background-color: white;
+  border: 1.5px solid black;
+}
